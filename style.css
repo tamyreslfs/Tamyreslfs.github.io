@@ -1,0 +1,109 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier, Heather, Times New Roman, Courier New;
+}
+
+h1{
+    padding: 50px;
+    color: beige;
+    font-size: 30px;
+}
+
+h2{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+}
+
+h3{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+.principal{
+    background-color:black
+}
+/*Dar limite ao site*/
+.limite{
+    max-width: 1280px;
+}
+/*logo no canto superior esquerdo*/
+.menulogo{
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    background-color:black;
+}
+/*Texto do canto superior*/
+.menu_texto{
+    margin-top: 8px;
+}
+.menu_texto a{
+    margin-right: 25px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+/*Banner do site*/
+.poster{
+    background-image: url(./imagens/tecnologia.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 640px;
+}
+/*Foto com Nome*/
+.fotonome{
+    display: flex;
+    background-color: blanchedalmond;
+    width: 1280px;
+    height: 300px;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    height: 300px;
+    background-color:black;
+}
+.nome {
+    width: 640px;
+    height: 300px;
+    background-color:black;
+}
+.nome a{
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color:#f6f6f6;   
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.nome a:hover{
+    background-color: black;
+    transition: 0.5s ease-in-out;
+    color: aliceblue;
+}
+/*Sobre mim*/
+.sobremim{
+    background-color: black;
+    height: 500px;
+}
+/*Formulario para contato*/
+.formulario{
+    text-align: center;
+    color: aliceblue;
+}
+/*Contato via rede social*/
+.contato{
+    padding: 40px;
+    background-color: black;
+}
