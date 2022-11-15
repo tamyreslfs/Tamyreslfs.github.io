@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link rel="stylesheet" href="./style.css">
+        <title>Tamyres Lopes</title>
+    </head>
+    <body>
+       <div class="principal">
+            <!--Limita o tamanho do site-->
+           <div class="limite">
+                <!--Contem a minha logo e o menu clicavel-->
+                <div class="menulogo">
+                    <div class="logo">
+                        <img src="./logo1.jpeg" alt="minha logo">
+                    </div>
+                    <div class="menu_texto">
+                        <a href="#poster">HOME</a>
+                        <a href="#sobremim">SOBRE MIM</a>
+                        <a href="#contato">CONTATO</a>
+                    </div>
+                </div>
+                <!--Foto poster do site-->
+                <div class="poster" id="poster">
+
+                </div>
+                <!--Minha Foto com o nome e curriculo em pdf-->
+                <div class="fotonome">
+                    <div class="foto">
+                        <img src="./foto.jpeg" alt="minha foto" width="150px" height="250px">
+                    </div>
+                    <div class="nome">
+                        <h1>Tamyres Lopes,<br> 31 anos, Estudante.</h1><br>
+                        <a href="./Curriculum Tamyres.pdf">Curriculum</a>
+                    </div>
+                </div>
+                <!--Sobre mim-->
+                <div class="sobremim" id="sobremim">
+                    <center><h1>SOBRE MIM</h1></center>
+                    
+                    <h2> Sou apaixonada por tecnologia desde criança. <br>
+
+                        Observava meu pai montando e configurando computadores, <br>ele me ensinou e incentivou. <br>
+                        
+                        Na época ele estudou programação através de livros. <br>
+                        
+                        Recentemente conversando com ele, senti um imenso interesse <br>em aprender e desbravar esse mundo dos Softwares.<br> 
+                        
+                        Foi quando surgiu um oportunidade de cursar <br>Engenharia de Software na Universidade de vassouras <br>Campus Maricá, e estou amando!</h2>
+                    
+                </div>
+                <!--Formulario para envio de mensagem-->
+                <div class="formulario">
+                    <FORM METHOD="POST" ACTION="mailto:mirynhalopes@gmail.com">
+                        <h1>CONTATO</h1>
+                        <h3>Envie-me uma mensagem, será um prazer lhe responder.</h3><br><br><br>
+
+                        <p>Digite seu nome:
+                            <INPUT TYPE="TEXT" NAME ="nome" SIZE="30"></p><br>
+                        <p>Digite seu e-mail:
+                            <INPUT TYPE="TEXT" NAME ="email" SIZE="30"></p><br>
+                        <p>Digite sua cidade:
+                            <INPUT TYPE="TEXT" NAME ="cidade" SIZE="30"></p><br>
+                        Qual estado você mora?
+                            <SELECT NAME ="estado">
+                            <OPTION VALUE ="nd"> Selecione...
+                            <OPTION VALUE ="acre"> Acre
+                            <OPTION VALUE ="alagoas"> Alagoas
+                            <OPTION VALUE ="amapa"> Amapá
+                            <OPTION VALUE ="amazonas"> Amazonas
+                            <OPTION VALUE ="bahia"> Bahia
+                            <OPTION VALUE ="ceara"> Ceará
+                            <OPTION VALUE ="distfederal"> Distrito Federal
+                            <OPTION VALUE ="espirsanto"> Espírito Santo
+                            <OPTION VALUE ="goias"> Góias
+                            <OPTION VALUE ="maranhao"> Maranhão
+                            <OPTION VALUE ="matogrosso"> Mato Grosso
+                            <OPTION VALUE ="matogrossosul"> Mato Grosso do Sul
+                            <OPTION VALUE ="minasgerais"> Minas Gerais
+                            <OPTION VALUE ="para"> Pará
+                            <OPTION VALUE ="paraiba"> Paraíba
+                            <OPTION VALUE ="parana"> Paraná
+                            <OPTION VALUE ="pernambuco"> Pernambuco
+                            <OPTION VALUE ="piaui"> Piauí
+                            <OPTION VALUE ="riojaneiro"> Rio de Janeiro
+                            <OPTION VALUE ="riograndenorte"> Rio Grande do Norte
+                            <OPTION VALUE ="riograndesul"> Rio Grande do Sul
+                            <OPTION VALUE ="rondonia"> Rondônia
+                            <OPTION VALUE ="roraima"> Roraima
+                            <OPTION VALUE ="santacatarina"> Santa Catarina
+                            <OPTION VALUE ="saopaulo"> São Paulo
+                            <OPTION VALUE ="sergipe"> Sergipe
+                            <OPTION VALUE ="tocantins"> Tocantins</SELECT>
+                        <br>
+                        <br>
+                        <p>Assunto:
+                            <INPUT TYPE="TEXT" NAME ="assunto" SIZE =40></p><br>
+                        <p>Gostaria de mandar uma mensagem?<br><br>
+                        <TEXTAREA NAME ="menssagem" ROWS=5 COLS=70>Por favor escreva aqui sua mensagem.</TEXTAREA></p><br>
+                        <INPUT TYPE="SUBMIT" VALUE="ENVIAR">
+                        <input type="reset" value="LIMPAR">
+                        <INPUT TYPE ="HIDDEN" NAME="mail" VALUE="mirynhalopes@gmail.com">
+                            
+                    </FORM>
+                </div>
+                <!--Minhas redes sociais para contato-->
+                <div class="contato" id="contato">
+                    <center>
+                    <a href="https://www.facebook.com/tamyres.lopes.7/"><img src="./facebooklogo.png" alt="facebook" width="50px" height="50px"></a>
+                    <a href="https://www.instagram.com/tamyreslfs/"><img src="./intagramlogo.png" alt="instagram" width="50px" height="50px"></a>
+                    <a href="https://github.com/tamyreslfs"><img src="./githublogo.png" alt="github" width="50px" height="50px"></a>
+                    </center>
+                </div>
+            </div>
+       </div>
+       <!--Arquivo para transição com java script-->
+       <script src="./transicao.js"></script>
+    </body>
+</html>
